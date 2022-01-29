@@ -1,0 +1,377 @@
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4, h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+}
+
+header  input {
+    border: 1px solid magenta;
+    color: magenta;
+    border-radius: 20px;
+    padding: 0 25px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.page{
+    margin-top: 200px;
+    text-align: center;
+}
+
+p{
+    color: grey;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page  button{
+    background-color: magenta;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 80px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 0;
+    box-shadow:  3px 5px 0 5px rgba(248, 239, 239, 0.924);
+}
+
+.coverpage {
+    display: block;
+    margin: 80px auto;
+}
+
+.stats  p, h2 {
+    margin: 0;
+}
+
+.stats h2 {
+    font-size: 80px;
+}
+
+.move {
+    margin-left: 25px;
+}
+
+.stats  img {
+    width: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+/* .container {
+    margin: 0 100px;
+} */
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 100px;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.box img {
+    max-width: 100%;
+    padding-left: 70px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box1 img {
+    max-width: 100%;
+    width: 90%;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 100px;
+    justify-content: space-between;
+}
+
+.content {
+    width: 60%;
+    align-self: center;
+} 
+
+.waves {
+    background: url(images/bg-section-top-desktop-1.svg),
+    url(images/bg-section-top-desktop-2.svg), 
+    url(images/bg-section-bottom-desktop-1.svg), 
+    url(images/bg-section-bottom-desktop-2.svg) no-repeat top center;
+    background-size: cover;
+    padding: 100px 0;
+    margin: 100px 0;
+    position: relative;
+}
+
+.custom-shape-divider-top-1643374463 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1643374463 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1643374463 .shape-fill {
+    fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1643375176 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1643375176 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1643375176 .shape-fill {
+    fill: #ffffff;
+}
+
+.wavy {
+    background: url(images/bg-footer-top-desktop.svg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(1, 36, 49);
+}
+.custom-shape-divider-top-1643421025 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643421025 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 126px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1643421025 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.wrapper {
+    margin: 150px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footnotes {
+    width: 30%;
+}
+
+.footnotes2 {
+    width: 30%;
+    margin-right: 20%;
+}
+
+.subscribe button {
+    background-color: magenta;
+    color: white;
+    font-size: 10px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    width: 10%;
+    position: absolute;
+    top: 65%;
+    right: 12%;
+}
+
+.subscribe input {
+    padding: 12px 0;
+    max-width: 100%;
+    width: 25%;
+    margin-right: 30px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+
+.social {
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.fa {
+    margin: 0 5px;
+}
+
+.logo {
+    filter: invert(100%) 
+    sepia(98%) saturate(0%) 
+    hue-rotate(5deg) 
+    brightness(103%) 
+    contrast(103%);
+    width: 50%;
+}
+
+@Media only screen and (max-width: 998px) {
+    header img {
+        width: 20%;
+    }
+
+    header {
+        /* display: inline-flex; */
+        margin: 20px;
+    }
+
+    .page {
+        margin: 50px auto;
+    }
+
+    header input{
+        font-size: 10px;
+        padding: 5px 8px;
+        border-radius: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .page button{
+        margin-top: 20px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .coverpage{
+        width: 100%;
+    }
+
+    .stats{
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+    }
+
+    .stats div:first-child {
+        padding-bottom: 80px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .box, .box1 {
+        flex-direction: column-reverse;
+        margin: 20px;
+    }
+
+    .box img, .box1 img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .waves {
+       background: url(images/bg-section-top-mobile-1.svg), 
+       url(images/bg-section-top-mobile-2.svg), 
+       url(images/bg-section-bottom-mobile-1.svg), 
+       url(images/bg-section-bottom-mobile-2.svg);
+       background-size: cover;
+    }
+
+    .wrapper{
+        flex-direction: column-reverse;
+        margin: 50px 10px;
+    }
+
+    h5{
+        font-size: 14px;
+    }
+
+    .wavy{
+    background: url(images/bg-footer-top-mobile.svg);
+    background-size: cover;
+    padding: 50px 0;
+    background-color: rgb(1, 36, 49);
+    position: relative;
+    }
+
+    .footnotes {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footnotes2 {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .subscribe input {
+        top: 35%;
+        left: 5%;
+        max-width: 9 0%;
+        width: 90%;
+    }
+
+    .subscribe button {
+        top: 43%;
+        right: 5%;
+        width: 35%;
+    }
+  }
